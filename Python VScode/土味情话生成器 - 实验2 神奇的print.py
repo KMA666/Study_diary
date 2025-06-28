@@ -1,0 +1,5 @@
+color = input("Enter a color")
+noun = input("Enter a uncountable noun:")
+print("Roses are",color)
+print(noun,"is blue",)
+print("my love is you.")
