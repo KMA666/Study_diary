@@ -1,0 +1,33 @@
+a=input().split()
+b=input().split()
+c=input().split()
+d=input().split()
+e=input().split()
+gpa=0
+if(int(a[1])>=90):
+    a[1]=int(90)
+else:
+    a[1]=int(a[1])
+gpa=gpa+(4*a[1]/90)*int(a[2])
+if(int(b[1])>=90):
+    b[1]=int(90)
+else:
+    b[1]=int(b[1])
+gpa=gpa+(4*b[1]/90)*int(b[2])
+if(int(c[1])>=90):
+    c[1]=int(90)
+else:
+    c[1]=int(c[1])
+gpa=gpa+(4*c[1]/90)*int(c[2])
+if(int(d[1])>=90):
+    d[1]=int(90)
+else:
+    d[1]=int(d[1])
+gpa=gpa+(4*d[1]/90)*int(d[2])
+if(int(e[1])>=90):
+    e[1]=int(90)
+else:
+    e[1]=int(e[1])
+gpa=gpa+(4*e[1]/90)*int(e[2])
+gpa=gpa/(int(a[2])+int(b[2])+int(c[2])+int(d[2])+int(e[2]))
+print(f"GPA:{gpa:.3}")
