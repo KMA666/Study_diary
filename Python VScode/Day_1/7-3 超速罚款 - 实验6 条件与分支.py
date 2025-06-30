@@ -1,0 +1,12 @@
+ispeed=int(input())
+ilimit=int(input())
+if(ispeed<=ilimit):
+    print("未超速")
+if(1<ispeed/ilimit<=1.2):
+    print("超速警告")
+if(1.2<ispeed/ilimit<=1.5):
+    print("罚款500元")
+if(1.5<ispeed/ilimit<=2):
+    print("罚款1000元")
+if(ispeed/ilimit>2):
+    print("罚款2000元")
